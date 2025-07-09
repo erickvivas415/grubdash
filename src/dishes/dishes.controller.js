@@ -5,7 +5,7 @@ const dishes = require(path.resolve("src/data/dishes-data"));
 
 // Use this function to assign ID's when necessary
 const nextId = require("../utils/nextId");
-const { router } = require("../../../../starter-robust-server-structure-paste/src/app");
+const { router } = require("../app");
 
 // TODO: Implement the /dishes handlers needed to make the tests pass
 function list(req, res) {
